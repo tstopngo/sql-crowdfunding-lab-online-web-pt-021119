@@ -32,7 +32,7 @@ INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) V
 (9, 'Where am I? Help me!', 'charity', 3000.00, '2013-06-30', '2013-09-30'),
 (10, 'Chickens for food', 'charity', 5000.00, '2012-03-20', '2013-06-30');
 
-INSERT INTO pledges (id, amount, user_id, projects_id) VALUES
+INSERT INTO pledges (id, amount, user_id, project_id) VALUES
 (1, 10.00, 1, 2),
 (2, 20.00, 1, 3),
 (3, 40.00, 1, 4),
